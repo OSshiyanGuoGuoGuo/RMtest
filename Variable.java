@@ -1,11 +1,13 @@
 public class Variable {
     public void extract() {
-        System.out.println("Price: " + 100 * 0.8);
+        double discount = 0.8;
+        double originalPrice = 100;
+        System.out.println("Price: " + originalPrice * discount);
     }
     public void calculate() {
-        int a = 5;
-        int b = 10;
-        int c = a + b;
-        System.out.println(c);
+        int firstAddend = 5;
+        int secondAddend = 10;
+        int sum = firstAddend + secondAddend;
+        System.out.println(sum);
     }
 }
